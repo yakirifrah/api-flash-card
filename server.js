@@ -14,6 +14,6 @@ app.get("/", (req, res) => {
   res.send({ message: "healthy" });
 });
 app.use("/api/data", dataRouters);
-const port = process.env.PORT || "4000";
+const port = process.env.PORT || 4000;
 
 app.listen(port, () => console.log("Gator app listening on port 3000!"));

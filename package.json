@@ -2,12 +2,15 @@
   "name": "server",
   "version": "1.0.0",
   "description": "Node & Express Api",
-  "main": "index.js",
+  "main": "server.js",
   "author": "Yakir Ifrah",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon index.js",
-    "start": "node index.js"
+    "dev": "nodemon server.js",
+    "run": "node server.js"
+  },
+  "engines": {
+    "node": "14.x"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
